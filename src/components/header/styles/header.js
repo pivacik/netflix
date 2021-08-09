@@ -6,9 +6,9 @@ export const Background = styled.div`
   flex-direction: column;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.35)
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.95)
     ),
     url(${({ src }) =>
         src ? `../images/misc/${src}.jpg` : "../images/misc/home-bg.jpg"})
