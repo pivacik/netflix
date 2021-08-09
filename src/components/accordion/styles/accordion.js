@@ -7,10 +7,15 @@ export const Container = styled.div`
 
 export const Inner = styled.div`
   display: flex;
+  margin: auto;
   padding: 70px 45px;
   flex-direction: column;
   max-width: 815px;
-  margin: auto;
+  width: 100%;
+
+  @media (max-width: 600px) {
+    padding: 70px 5px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -29,7 +34,7 @@ export const Item = styled.div`
   color: white;
   margin: auto;
   margin-bottom: 10px;
-  max-width: 670px;
+  max-width: 815px;
   width: 100%;
 
   &:first-of-type {
@@ -65,6 +70,7 @@ export const Header = styled.div`
 `;
 
 export const Body = styled.div`
+  display: inline-block;
   font-size: 26px;
   font-weight: normal;
   line-height: normal;

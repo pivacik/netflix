@@ -6,6 +6,9 @@ export const Item = styled.div`
   padding: 50px 5%;
   color: white;
   overflow: hidden;
+  @media (max-width: 600px) {
+    padding: 30px 0;
+  }
 `;
 
 export const Inner = styled.div`
@@ -27,7 +30,7 @@ export const Pane = styled.div`
 
   @media (max-width: 1000px) {
     width: 100%;
-    padding: 0 45px;
+    padding: 0 20px;
     text-align: center;
   }
 `;
