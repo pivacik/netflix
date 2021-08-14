@@ -134,14 +134,14 @@ export const SearchIcon = styled.button`
 `;
 
 export const Link = styled.p`
-  color: #fff;
+  color: #b3b3b3;
   text-decoration: none;
   margin-right: 30px;
-  font-weight: ${({ active }) => (active === "true" ? "700" : "normal")};
+  color: ${({ active }) => (active === "true" ? "#fff" : "#9f9f9f")};
   cursor: pointer;
+  transition: color 0.2s;
   &:hover {
-    color: #b3b3b3;
-    transition: color 0.4s;
+    color: #fff;
   }
   &:last-of-type {
     margin-right: 0;
