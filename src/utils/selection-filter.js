@@ -15,7 +15,7 @@ export default function selectionFilter({ series, films }) {
       },
       {
         title: "Suspense",
-        data: films.filter((item) => item.genre === "suspence"),
+        data: films.filter((item) => item.genre === "suspense"),
       },
       {
         title: "Thriller",
@@ -38,6 +38,10 @@ export default function selectionFilter({ series, films }) {
       {
         title: "Feel Good",
         data: series.filter((item) => item.genre === "feel-good"),
+      },
+      {
+        title: "Crime",
+        data: series.filter((item) => item.genre === "crime"),
       },
     ],
   };
