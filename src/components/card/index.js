@@ -37,7 +37,7 @@ Card.Group = function CardGroup({ children, ...restProps }) {
 };
 
 Card.Feature = function CardFeature({ category, children, ...restProps }) {
-  const { showFeature, itemFeature, setFeature, setShowFeature } =
+  const { showFeature, itemFeature, setShowFeature } =
     useContext(FeatureContext);
   return showFeature ? (
     <Feature
